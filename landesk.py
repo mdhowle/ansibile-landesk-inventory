@@ -142,7 +142,7 @@ class InventoryModule(BaseInventoryPlugin):
             validate_cert = self.get_option("validate_cert")
             if not validate_cert:
                 import urllib3
-                urllib3.disable_warnings()
+                urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         else:
             validate_cert = False
 
