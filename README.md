@@ -2,6 +2,8 @@
 
 LANDESK dynamic inventory plugin for Ansible
 
+**ABANDONED**: We are transitioning away from Ivanti/LANDESK.
+
 ## Installation
 See [Ansible Documentation](https://docs.ansible.com/ansible/latest/dev_guide/developing_locally.html#adding-a-plugin-locally) on installing plugins.
 
